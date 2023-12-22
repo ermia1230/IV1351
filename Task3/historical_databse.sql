@@ -4,12 +4,12 @@ CREATE DATABASE historical;
 
 CREATE EXTENSION IF NOT EXISTS postgres_fdw;
 
-
+-- The names below should be adjusted to your databse name, and the port used
 CREATE SERVER histserver
 FOREIGN DATA WRAPPER postgres_fdw
 OPTIONS (dbname 'new_sound', host 'localhost', port '5433');
 
-
+-- The user and password should be adjusted based on your username and password
 CREATE USER MAPPING FOR current_user
 SERVER histserver
 OPTIONS (user 'postgres', password 'xxx');
