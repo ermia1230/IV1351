@@ -1,5 +1,6 @@
 
 ## Project Description: Soundgood Music School
+This project is done in a group with Daniel Ibrahimi and Esra Salman. 
 The objective of this project is to streamline information management and business transactions for the Soundgood music school. This involves developing a comprehensive database to handle all the school's data, along with an application capable of managing specific transactions.
 
 Constructing a database without a structured approach may lead to failure or suboptimal results. In this project, the author systematically constructs a database for the Soundgood music school. The process involves creating a conceptual model, a logical model, and translating them into SQL code to establish the database. The database is designed to perform various tasks, such as managing instruments, lessons, students, and instructors. Additionally, a command-line interface is developed to handle certain aspects of the database. The author provides insights into and motivations for each step of the database design process, discussing problem-solving approaches for each stage of the project.
